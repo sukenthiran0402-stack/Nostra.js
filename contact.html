@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="top">
+        <p>Sign up and <b>GET 20% OFF</b> for your first Order</p>
+        <p class="par"><i class="fa-solid fa-x" style="color: white;"></i></p>
+    </div>
+    <div class="navbar">
+        <nav class="section__1">
+            <h1 class="nos">Nostra</h1>
+            <div class="navbar_links">
+                <p class="link">
+                    <a href="index.html">Home</a>
+                </p>
+                <p class="link">
+                    <a href="#new_arrival">New Arrival</a>
+                </p>
+                <p class="link">
+                    <a href="#most_wanted">Most Wanted</a>
+                </p>
+                <p class="link">
+                    <a href="collections.html">Collections</a>
+                </p>
+                <p class="link">
+                    <a href="contact.html">Contact Us</a>
+                </p>
+            </div>
+            <div class="navbar-menu-toggle"><i id="side-navbar-activate" onclick="shownavbar()" class="fa-solid fa-bars"
+                    style="color: rgb(9, 9, 9);"></i></div>
+        </nav>
+        <!--side navbar-->
+
+        <div class="side-navbar" style="margin-left: -60%;">
+            <p style="text-align: right;">
+                <i id="side-navbar-close" class="fa-solid fa-x" style="color: rgb(9, 9, 9);"></i>
+            </p>
+            <div class="side-navbar-links">
+                <p class="side-navbar-link">
+                    <a href="index.html">Home</a>
+                </p>
+                <p class="side-navbar-link">
+                    <a href="#new-arrival">New Arrival</a>
+                </p>
+
+                <p class="side-navbar-link">
+                    <a href="#most-wanted">Most Wanted</a>
+                </p>
+                </p>
+                <p class="side-navbar-link">
+                    <a href="collections.html">Collections</a>
+                </p>
+                <p class="side-navbar-link">
+                    <a href="contact.html">Contact Us</a>
+                </p>
+            </div>
+        </div>
+        <form action="https://formspree.io/f/{FORM_ID}" class="fs-form" target="_top" method="POST">
+            <div class="fs-field">
+                <label class="fs-label" for="name">Your Name</label>
+                <input class="fs-input" id="name" name="name" required />
+            </div>
+            <div class="fs-field">
+                <label class="fs-label" for="email">Email</label>
+                <input class="fs-input" id="email" name="email" required />
+                <p class="fs-description">
+                    This will help me respond to your query via an email.
+                </p>
+            </div>
+            <div class="fs-field">
+                <label class="fs-label" for="message">Message</label>
+                <textarea class="fs-textarea" id="message" name="message" required></textarea>
+                <p class="fs-description">What would you like to discuss?</p>
+            </div>
+            <div class="fs-button-group">
+                <button class="fs-button" type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="news">
+            <h2>Join Our News Letter</h2>
+            <p style="text-align: center;">SingUp for our email newspaper to get exclusive discount, update, and
+                more</p>
+            <div style="margin-top: 10px;">
+                <input class="search">
+            </div>
+            <div>
+                <button>
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right">
+                    </i>
+                </button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="headingtext">Nostra</h2>
+                    <p>
+                        the Standard Chunk of Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="footer-icon-container">
+                        <i class="fa-brands fa-instagram icon"></i>
+                        <i class="fa-brands fa-twitter icon"></i>
+                        <i class="fa-brands fa-facebook-messenger icon"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="subtitle">@ 2026 Nostra.com</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
